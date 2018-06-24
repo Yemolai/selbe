@@ -1,0 +1,42 @@
+.post-list-container {
+  margin-top: 25px;
+}
+
+.post-list-item {
+  margin-top: 10px;
+  color: white;
+  transition: background-color 1s;
+}
+
+.post-list-item h4 {
+  padding-left: 25px;
+  padding-bottom: 5px;
+}
+
+.post-list-item:hover {
+  background-color: #26a69a !important;
+}
+
+.complete-todo-item {
+  float: right;
+  right: 20px;
+}
+
+#post-add-form {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+#nothing-here {
+  margin-top: 150px;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    margin-left: 1;
+  }
+}
